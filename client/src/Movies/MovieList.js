@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { useRouteMatch, useParams,} from 'react-router';
 export default function MovieList(props) {
   return (
     <div className="movie-list">
@@ -12,7 +12,6 @@ export default function MovieList(props) {
 
 function MovieDetails(props) {
   const { title, director, metascore } = props.movie;
-
   return (
     <div className="movie-card">
       <h2>{title}</h2>
