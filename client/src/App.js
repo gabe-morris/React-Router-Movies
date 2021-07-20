@@ -34,7 +34,7 @@ export default function App (props) {
         <Movie movies={movieList}/>
       </Route>
       <Route path='/'>
-        <MovieList movies ={movieList}/>
+        <MovieList movies={movieList}/>
       </Route>
     </div>
   );
